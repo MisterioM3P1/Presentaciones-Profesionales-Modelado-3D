@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D & Presentation Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #0c0c0c; color: #fff; }
+    header { background: linear-gradient(to right, #0f0f0f, #1a1a1a); padding: 40px; text-align: center; }
+    header h1 { font-size: 2.5em; color: #00f0ff; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+
+    nav { background: #111; padding: 15px; display: flex; justify-content: center; gap: 30px; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+
+    section { padding: 60px 10%; }
+    section h2 { font-size: 2em; margin-bottom: 20px; color: #00eaff; }
+
+    .service, .portfolio, .cta, .testimonial {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: #00eaff;
+      padding: 10px 20px;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Powerful Presentations & 3D Visuals</h1>
+  <p>Custom pitch decks & high-end renderings using ASPECCT + Blender + SolidWorks</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <div class="service">
+    <p>We specialize in helping entrepreneurs, startups, and developers win investor attention through professionally designed presentations and lifelike 3D renderings.</p>
+    <p>100% made in Mexico. Fully customizable. Built with precision and vision.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="service">
+    <h3>🎯 Investor Pitch Presentations (ASPECCT Method)</h3>
+    <p>Custom-built slides that follow the ASPECCT methodology for clear, persuasive storytelling.</p>
+  </div>
+  <div class="service">
+    <h3>🔧 3D Render Modeling</h3>
+    <p>Architectural and product visualizations using Blender and SolidWorks, photoreal quality.</p>
+  </div>
+  <div class="service">
+    <h3>💼 Full Business Packages</h3>
+    <p>Complete visual brand + investor kit — pitch deck, renders, financials, and proposal.</p>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <p>[Insert screenshots or videos of your PowerPoints and 3D renders here]</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <div class="cta">
+    <p>Let’s elevate your business pitch. Request a quote or schedule a free consultation call.</p>
+    <a class="btn" href="mailto:your.email@example.com">Contact Me</a>
+    <a class="btn" href="https://wa.me/52YOURNUMBER">WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Your Studio Name. Built with passion in Mexico.</p>
+</footer>
+
+</body>
+</html>
